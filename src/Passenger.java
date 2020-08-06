@@ -1,7 +1,7 @@
 public class Passenger extends Person {
     String email;
 
-    Passenger(String email, String name, String surname,String phone_number, int cash){
+    Passenger(String email, String name, String surname ,String phone_number, int cash){
         super(name,surname,phone_number, cash);
         this.email = email;
     }
@@ -16,7 +16,7 @@ public class Passenger extends Person {
     }
 
     public String toString(){
-        return "Hi I'm "+ super.toString() + " and I am a passenger";
+        return "Hi I'm " + super.toString() + " and I am a passenger";
     }
     
 }

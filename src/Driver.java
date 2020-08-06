@@ -4,7 +4,7 @@ public class Driver extends Person {
     
     
     Driver( Car car, String licenseDrivers, String name, String surname,String phone_number, int cash){
-        super(name,surname,phone_number,cash);//this is inherited from the parent class
+        super(name,surname,phone_number,cash);  //this is inherited from the parent class
         this.car = car;
         this.licenseID = licenseDrivers;    
     }

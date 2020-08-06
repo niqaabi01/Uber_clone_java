@@ -14,7 +14,7 @@ public class Car implements Vehicle {
         this.model = model;
         this.type = type;
         if(type.equals("XL")) {
-            this.baseRate = 35.00;
+            this.baseRate = 30.00;
         } else {
             this.baseRate = 12.00;
         }

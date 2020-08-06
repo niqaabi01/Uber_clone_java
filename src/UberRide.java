@@ -43,7 +43,7 @@ public class UberRide extends Journey {
    
 
     public Driver assignDriver() {
-        //connect to database and fetch list of drivers DB
+        //connect to database and fetch list of drivers
         //call the function that takes X/XL - from user
             /**
              * read data from csv

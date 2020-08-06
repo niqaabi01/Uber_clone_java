@@ -34,7 +34,6 @@ public class Person {
     public String getSurname(){
         return this.surname;
     }
-   
     //Phone number
     public void setPhoneNumber(String phone_number) {
         this.phone_number = phone_number;
